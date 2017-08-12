@@ -1,6 +1,6 @@
 # How Michael Scott embodies my life as front-end developer
 
-## CHeck live
+## Check live
 On github pages: [solo244.github.io/ms-fe](https://solo244.github.io/ms-fe/)
 
 ## For more information
