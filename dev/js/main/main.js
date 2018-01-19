@@ -1,24 +1,14 @@
 (function ($) {
+  var path;
 
-    /*
-     * Vars
-     */
-    var $body = $("html, body");
-
-    /*
-     * OMG, it's a function
-     */
-    function started(e){
-      var $this = $(this);
-      console.log("File main.js is loaded");
-    }
-
-    /*
-     * Let's get ready to rumble
-     */
-    $(document).ready(function(){
-      // instantiate
-      $body.on("click", started);
-    });
+  $(".gif").on('click', function() {
+    path = $(this).find("img").attr('src');
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val(path.select());
+    console.log($temp);
+    document.execCommand("copy");
+    $temp.remove();
+  });
 
 })(jQuery);
