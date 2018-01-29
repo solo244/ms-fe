@@ -11,4 +11,6 @@
     $temp.remove();
   });
 
+  var gifs = Gifffer();
+
 })(jQuery);
