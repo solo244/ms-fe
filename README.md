@@ -13,7 +13,7 @@ On github pages: [solo244.github.io/ms-fe](https://solo244.github.io/ms-fe/)
 - Gulp
 
 ## Browser compatibility
-- Internet Explorer 11+
+- Edge
 - Firefox
 - Chrome
 - Opera
